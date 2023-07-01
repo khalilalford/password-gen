@@ -44,7 +44,9 @@ if (!enter){
   confirmNumbers =("Will it contain numbers?")
   confirmSpecialChar = ("Will it contain a special character?")
 };
-// confirm user if theyd like to use numbers
+
+// confirm user is theyd like to use special characters
+//  I confirmed the user if theyd like to use numbers
 // create a pool of available characters(lowercase/uppercase/numbers/special)
 // if they said yes to numbers, add the numbers to availableChars
 
