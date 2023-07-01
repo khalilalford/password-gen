@@ -122,15 +122,4 @@ function UserInput(ps) {
 // "if length is less than 128"tell them too big
 // "if no length indicated and non numerical" tell them wrong entry
 // if user says no to every type of character / tell them to select at least 1 type of character/ restart
-
-// Phase 2
-// what values do we need to track?
-// Create password variable that is an EMPTY STRING
-// create a for loop that runs length number of times 
-// in for loop we need to generate a single random character and uppend this character to our password
-// FOR LOOP STEMS
-// Create a random number between 0 and length of our available pool characters array
-//  Select 1 element from arrayof availablechars at index random number we gen
-// var newChar = availableChars(randomNum)
-// Append this new element to password variable
-// RETURN password we just created 
+// ^^^I completed these steps to solve these psuedocodes from above 
