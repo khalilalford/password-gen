@@ -1,4 +1,4 @@
-
+// added vars to name letters characters and numbers
 var enter;
 var confirmUppercase;
 var confirmLowercase;
@@ -72,7 +72,7 @@ else if (confirmSpecialChar && confirmLowercase && confirmUppercase) {
 else if (confirmNumbers && confirmLowercase && confirmUppercase) {
   choices = numbers.concat(lowerCase, upperCase);
 }
-// Else if for 2 positive options 
+
 else if (confirmSpecialChar && confirmNumbers) {
   choices = specialChar.concat(numbers);
 
@@ -91,7 +91,7 @@ else if (confirmLowercase && confirmNumbers) {
 } else if (confirmNumbers && confirmUppercase) {
   choices = numbers.concat(upperCase);
 }
-// Else if for 1 positive option
+
 else if (confirmSpecialChar) {
   choices = specialChar;
 }
